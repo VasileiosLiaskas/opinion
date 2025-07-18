@@ -1,11 +1,22 @@
-.app-header {
-  background: #3a0909;
-  color: #a62222;
-  padding: 1rem;
+@import "../../styles/variables";
 
-  nav a {
-    margin-right: 1rem;
-    color: white;
-    text-decoration: none;
+.header{
+  background-color: $primary-white;
+  width: 100%;
+
+  &__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
+
+  &__logo{
+    padding: $rds-1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+  }
+
 }
