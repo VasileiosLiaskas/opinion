@@ -1,1 +1,15 @@
 @import "../components/header/header";
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+  margin: .2rem 0;
+}
+
+.divider.thin { height: 1px; }
+.divider.medium { height: 3px; }
+.divider.bold { height: 5px; }
+
+.divider.primary { background-color: $primary-grey-light }
+.divider.dark { background-color: $primary-grey; }

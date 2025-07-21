@@ -6,8 +6,25 @@ $primary-green_light: #CCEDEB;
 $primary-yellow_light: #FFFBD5;
 $primary-blue_light: #D6ECF6;
 $primary-white: #FFF;
+$primary-grey: #CACACA;
+$primary-grey_light: #DDDDDD;
+
 
 
 //space
 
 $rds-1: clamp(0.5rem, 0.3846rem + 0.5128vw, 1rem);
+$rds-2: clamp(1rem, 0.7692rem + 1.0256vw, 2rem);
+$rds-3: clamp(1.5rem, 1.1538rem + 1.5385vw, 3rem);
+$rds-4: clamp(2rem, 1.5385rem + 2.0513vw, 4rem);
+$rds-5: clamp(2.5rem, 1.9231rem + 2.5641vw, 5rem);
+$rds-6: clamp(3rem, 2.3077rem + 3.0769vw, 6rem);
+$rds-8: clamp(4rem, 3.0769rem + 4.1026vw, 8rem);
+$rds-10: clamp(5rem, 3.8462rem + 5.1282vw, 10rem);
+$rds-12: clamp(6rem, 4.6154rem + 6.1538vw, 12rem);
+$rds-15: clamp(7.5rem, 5.7692rem + 7.6923vw, 15rem);
+$rds-20: clamp(10rem, 7.6923rem + 10.2564vw, 20rem);
+$rds-25: clamp(12.5rem, 9.6154rem + 12.8205vw, 25rem);
+$rds-30: clamp(15rem, 11.5385rem + 15.3846vw, 30rem);
+
+

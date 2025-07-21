@@ -1,0 +1,12 @@
+.app-header {
+  background: #3a0909;
+  color: #a62222;
+  padding: 1rem;
+}
+.app-header nav a {
+  margin-right: 1rem;
+  color: white;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=header.css.map */

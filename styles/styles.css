@@ -1,0 +1,63 @@
+.header {
+  background-color: #FFF;
+  width: 100%;
+}
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: clamp(0.5rem, 0.3846rem + 0.5128vw, 1rem) clamp(1rem, 0.7692rem + 1.0256vw, 2rem) clamp(0.5rem, 0.3846rem + 0.5128vw, 1rem) clamp(1rem, 0.7692rem + 1.0256vw, 2rem);
+}
+.header__logo {
+  padding: clamp(0.5rem, 0.3846rem + 0.5128vw, 1rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 18rem;
+}
+.header__widget {
+  display: flex;
+  align-items: center;
+}
+.header__widget__games {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+.header__widget__games__icon {
+  width: 3rem;
+  height: 3rem;
+}
+.header__widget__games__icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+  margin: 0.2rem 0;
+}
+
+.divider.thin {
+  height: 1px;
+}
+
+.divider.medium {
+  height: 3px;
+}
+
+.divider.bold {
+  height: 5px;
+}
+
+.divider.primary {
+  background-color: #DDDDDD;
+}
+
+.divider.dark {
+  background-color: #CACACA;
+}
+
+/*# sourceMappingURL=styles.css.map */
